@@ -1,0 +1,28 @@
+@import "../../node_modules/normalize.css/normalize.css";
+:root {
+  --dark-background: rgba(15, 23, 42, 0.75);
+  --dark-background-input: #edeff0;
+  --white-text: #e2e8f0;
+  --dark-text: rgb(148 163 184);
+  --body-background: rgb(15, 23, 42);
+  --border-color: rgba(248, 250, 252, 0.06);
+}
+
+body {
+  background: var(--body-background);
+  color: var(--white-text);
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1280px;
+  min-width: 1024px;
+  padding-left: 40px;
+  padding-right: 40px;
+  width: 100%;
+}
+
+.main {
+  padding-top: 50px;
+}
